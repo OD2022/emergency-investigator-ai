@@ -27,7 +27,7 @@ def generate_follow_up_questions(messages):
 # Streamlit app
 def main():
     st.set_page_config(page_title="Emergency Response Assistant", page_icon="🚑")
-    st.title("🚑 Emergency Response Assistant")
+    st.title("🚑 Emergency Assistant")
 
     if "messages" not in st.session_state:
         # Initialize conversation history
