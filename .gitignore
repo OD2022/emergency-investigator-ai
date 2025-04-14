@@ -1,0 +1,27 @@
+# Ignore Python virtual environment folders
+venv/
+env/
+
+# Ignore environment variable files
+.env
+
+# Other typical Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
